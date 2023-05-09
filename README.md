@@ -11,8 +11,6 @@
 
 <img width="800" alt="스크린샷 2023-02-23 오후 10 42 09" src="https://user-images.githubusercontent.com/78461009/221401897-815bd51a-d30e-4c86-a30d-66507aa0b25b.png">
 
-- [요구사항 분석 및 도메인 모델링](https://github.com/xiu0327/2023-numble-banking/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%AA%A8%EB%8D%B8%EB%A7%81)
-
 ## 1.3 기술 스택
 
 | SpringBoot | MySQL |  JPA   |  JUnit   |  Spring Security   |
@@ -44,7 +42,6 @@ MySQL은 innoDB라는 스토리지 엔진을 사용한다. innoDB 엔진은 여�
 
 → **물리적 외래키를 걸지 않는다. 외래키 관계가 있을 땐 참조값만 DB에 넣어 사용한다.**
 
-- [물리적 FK를 사용하지 않는 이유](https://github.com/xiu0327/2023-numble-banking/wiki/%F0%9F%8C%95-%EB%AC%BC%EB%A6%AC%EC%A0%81-FK%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
 # 3. API 스펙
 
@@ -60,32 +57,26 @@ MySQL은 innoDB라는 스토리지 엔진을 사용한다. innoDB 엔진은 여�
 
 ### 4.1 코딩 표준
 
-- [코딩 표준](https://github.com/xiu0327/2023-numble-banking/wiki/%EC%BD%94%EB%94%A9-%ED%91%9C%EC%A4%80)
 
 ### 4.2 연관매핑
 
 →  **애너테이션을 활용한 연관매핑은 최대한 지양한다.**
 
-- [연관매핑을 지양하는 이유](https://github.com/xiu0327/2023-numble-banking/wiki/%EC%97%B0%EA%B4%80%EB%A7%A4%ED%95%91%EC%9D%84-%EC%A7%80%EC%96%91%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
 ### 4.3 테스트 코드 목록
 
-- [테스트 목록](https://github.com/xiu0327/2023-numble-banking/wiki/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 # 5. 트랜잭션 원자성 보장 및 동시성 문제 해결
 
 →  **@Transaction과 낙관적 락을 이용하여 동시성 해결.**
 
-- [분명 돈이 있었는데요 없었습니다](https://github.com/xiu0327/2023-numble-banking/wiki/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EC%9B%90%EC%9E%90%EC%84%B1-%EB%B0%8F-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
 
 # 6. 거래량에 대한 고찰
 
 → 거래량이 높은 친구 순으로 친구 목록 조회 해보기
 
-- [거래량에 대한 고찰](https://github.com/xiu0327/2023-numble-banking/wiki/%EA%B1%B0%EB%9E%98%EB%9F%89%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
 
 # 7. 인증/인가 구현
 
 → Spring Security를 이용하여 JWT으로 인증/인가 기능 구현
 
-- [로그인, 결코 간단하지 않은 기능](https://github.com/xiu0327/2023-numble-banking/wiki/%EB%A1%9C%EA%B7%B8%EC%9D%B8,-%EA%B2%B0%EC%BD%94-%EA%B0%84%EB%8B%A8%ED%95%98%EC%A7%80-%EC%95%8A%EC%9D%80-%EA%B8%B0%EB%8A%A5)
