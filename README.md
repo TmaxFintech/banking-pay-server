@@ -1,3 +1,5 @@
+https://www.notion.so/mlopsengineer/MyBank-3cd89684e6ed42d4b9e579dbda00b0f7?p=99f8385562be407b9dea53c6e83362d8&pm=s
+
 # 1. 프로젝트 개요
 
 ## 1.1 프로젝트 목표
